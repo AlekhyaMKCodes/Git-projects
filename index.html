@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expenses Tracker</h1>
+        <div class="form-container">
+            <input type="text" id="expenseName" placeholder="Expense Name">
+            <input type="text" id="expenseCategory" placeholder="Expense Category">
+            <input type="number" id="expenseCost" placeholder="Expense Cost">
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+        <div id="expenseList"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
